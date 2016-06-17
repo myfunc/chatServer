@@ -1,2 +1,9 @@
 # chatServer
-Simple realtime chat on Node.js
+Require modules on Node.js
+
+1) NodeStatic module
+install:
+  npm i node-static
+  
+Reference:
+ Coming soon!
