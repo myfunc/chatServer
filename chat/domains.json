@@ -1,0 +1,46 @@
+[
+  {
+    "reqr":{
+      "url": "/jelly",
+      "method": "ALL"
+    },
+    "rest":{
+      "sendScript":"./jelly/request.js",
+      "sendData":"",
+      "statusCode":200
+    }
+  },
+  {
+    "reqr":{
+      "url": "/main",
+      "method": "ALL"
+    },
+    "rest":{
+      "sendScript":"./main/request.js",
+      "sendData":"",
+      "statusCode":200
+    }
+  },
+  {
+    "reqr":{
+      "url": "/livechat",
+      "method": "ALL"
+    },
+    "rest":{
+      "sendScript":"./livechat/request.js",
+      "sendData":"",
+      "statusCode":200
+    }
+  },
+  {
+    "reqr":{
+      "url": "",
+      "method": "ALL"
+    },
+    "rest":{
+      "sendScript":"./auto.js",
+      "sendData":"",
+      "statusCode":200
+    }
+  }
+]

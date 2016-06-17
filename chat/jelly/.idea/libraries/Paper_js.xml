@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Paper.js" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/../jstest2/paper-full.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../jstest2/paper-full.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

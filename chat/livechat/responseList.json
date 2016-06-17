@@ -1,0 +1,46 @@
+[
+  {
+    "reqr":{
+      "url": "/livechat/subscribe",
+      "method": "POST"
+    },
+    "rest":{
+      "sendScript":"./livechat/servernode/subscribe.js",
+      "sendData":"",
+      "statusCode":200
+    }
+  },
+  {
+    "reqr":{
+      "url": "/livechat/post",
+      "method": "POST"
+    },
+    "rest":{
+      "sendScript":"./livechat/servernode/post.js",
+      "sendData":"",
+      "statusCode":200
+    }
+  },
+  {
+    "reqr":{
+      "url": "/livechat/connected",
+      "method": "POST"
+    },
+    "rest":{
+      "sendScript":"./livechat/servernode/connected.js",
+      "sendData":"",
+      "statusCode":200
+    }
+  },
+  {
+    "reqr":{
+      "url": "/livechat",
+      "method": "GET"
+    },
+    "rest":{
+      "sendScript":"./livechat/servernode/page.js",
+      "sendData":"",
+      "statusCode":200
+    }
+  }
+]

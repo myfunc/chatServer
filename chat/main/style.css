@@ -1,0 +1,43 @@
+body{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: lightgrey;
+}
+
+.chatbox {
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    min-width: 400px;
+    height: 95%;
+    border: 1px solid black;
+    background: #ebebeb;
+}
+
+.chatbox .text{
+    overflow: auto;
+    padding: 0.5%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 1.3%;
+    bottom: 1%;
+    width: 98%;
+    height: 92%;
+    border: 1px solid black;
+}
+
+.chatbox .textfield{
+    position: relative;
+    width: 80%;
+    float: left;
+    left: 1%;
+}
+
+.chatbox .send{
+    position: relative;
+    width: 17%;
+    right: 1%;
+    float: right;
+}

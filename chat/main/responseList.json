@@ -1,0 +1,57 @@
+[
+  {
+    "reqr":{
+      "url": "/main/subscribe",
+      "method": "POST"
+    },
+    "rest":{
+      "sendScript":"./main/servernode/subscribe.js",
+      "sendData":"",
+      "statusCode":200
+    }
+  },
+  {
+    "reqr":{
+      "url": "/main/post",
+      "method": "POST"
+    },
+    "rest":{
+      "sendScript":"./main/servernode/post.js",
+      "sendData":"",
+      "statusCode":200
+    }
+  },
+  {
+    "reqr":{
+      "url": "/main/connected",
+      "method": "POST"
+    },
+    "rest":{
+      "sendScript":"./main/servernode/connected.js",
+      "sendData":"",
+      "statusCode":200
+    }
+  },
+  {
+    "reqr":{
+      "url": "/main/clear",
+      "method": "GET"
+    },
+    "rest":{
+      "sendScript":"./main/servernode/clear.js",
+      "sendData":"",
+      "statusCode":200
+    }
+  },
+  {
+    "reqr":{
+      "url": "/main",
+      "method": "GET"
+    },
+    "rest":{
+      "sendScript":"./main/servernode/page.js",
+      "sendData":"",
+      "statusCode":200
+    }
+  }
+]
