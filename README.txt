@@ -1,5 +1,5 @@
-# chatServer
 Installation:
+
 1) Install node.js server
 2) Windows:
     Run "run.bat" 
